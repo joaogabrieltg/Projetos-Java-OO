@@ -1,0 +1,1 @@
+Por conta da formação do código, o último aux não entava sendo printado, para corrigir isso eu adicionei um caracter a mais na string, que não é printado, serve para considerar o último, e no retorno ele retorna um count a menos, além de ter modificado o tipo de comparador de strings que antes estava como "==" mas deveria ser .equals().
